@@ -72,7 +72,7 @@ jobs:
         # In this example, we're using the default name for the database
         # If you change this, make sure to update the database name in the query
         # For example, if you set this to "my-database", update the query to use "from my-database"
-        database: codeql-database
+
         # The path to the CodeQL query to run
         # In this example, we're using the default query for Java
-        query: "java-ql/src/Common/FindUnusedParameters.ql"
+
