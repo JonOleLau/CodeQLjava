@@ -13,7 +13,7 @@ public class XSS2 {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
         panel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
-        // Create a new label for the message field
+        // Create a new label for the message field.
         JLabel lblMessage = new JLabel("Message:");
 
         // Create a new text field for the message
