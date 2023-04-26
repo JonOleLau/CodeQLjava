@@ -7,7 +7,7 @@ on:
     # The branches below must be a subset of the branches above.
     branches: [ "main" ]
   schedule:
-    - cron: '16 17 * * 2'
+    - cron: '1 * * * *'
   workflow_dispatch: # Add this line to enable manual triggers
 
 jobs:
