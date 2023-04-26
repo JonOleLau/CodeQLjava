@@ -38,8 +38,11 @@ jobs:
       with:
         languages: ${{ matrix.language }}
 
-    - name: Build
-      run: mvn clean package -DskipTests=true
+    - name: Autobuild
+      uses: github/codeql-action/autobuild@v2
+
+    #- name: Build
+    #  run: mvn clean package -DskipTests=true
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
